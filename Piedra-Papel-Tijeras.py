@@ -1,6 +1,3 @@
-# Mini-juego: Piedra, Papel o Tijeras
-# Autor: (tu nombre)
-
 import random
 
 def obtener_eleccion_usuario():
@@ -34,7 +31,6 @@ def determinar_ganador(jugador, pc):
     else:
         return "pc"
 
-# ---------------- PROGRAMA PRINCIPAL ----------------
 print("===== MINI-JUEGO: PIEDRA, PAPEL O TIJERAS =====")
 
 seguir = "s"
@@ -57,3 +53,4 @@ while seguir.lower() == "s":
     seguir = input("\n¿Deseas jugar otra vez? (s/n): ")
 
 print("\nGracias por jugar. Programa finalizado.")
+
